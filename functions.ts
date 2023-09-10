@@ -23,3 +23,11 @@ function add2(a: number, b: number = 1): number {
 }
 
 console.log(add2(1, 2));
+
+// Spread operator
+function add3(...numbers: number[]): number {
+    return numbers.reduce((a, b) => a + b);
+}
+
+console.log(add3(1, 2, 3, 4, 5));
+console.log(add3(...[1, 2, 3, 4, 5]));

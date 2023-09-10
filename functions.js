@@ -17,3 +17,9 @@ function add2(a, b = 1) {
     return a + b;
 }
 console.log(add2(1, 2));
+// Spread operator
+function add3(...numbers) {
+    return numbers.reduce((a, b) => a + b);
+}
+console.log(add3(1, 2, 3, 4, 5));
+console.log(add3(...[1, 2, 3, 4, 5]));
