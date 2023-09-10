@@ -1,5 +1,5 @@
 let user : string;
 user = 'John';
-user.toUpperCase();
+user = user.toUpperCase();
 
 console.log(user);

@@ -1,5 +1,5 @@
 "use strict";
 let user;
-user = 'John';
-user.toUpperCase();
+user = 'john';
+user = user.toUpperCase();
 console.log(user);
