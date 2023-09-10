@@ -31,3 +31,13 @@ function add3(...numbers: number[]): number {
 
 console.log(add3(1, 2, 3, 4, 5));
 console.log(add3(...[1, 2, 3, 4, 5]));
+
+// Function overloading
+function add4(a: number, b: number): number;
+function add4(a: string, b: string): string;
+function add4(a: any, b: any): any {
+    return a + b;
+}
+
+console.log(add4(1, 2));
+console.log(add4("Hello", "World"));

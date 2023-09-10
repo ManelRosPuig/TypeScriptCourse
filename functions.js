@@ -23,3 +23,8 @@ function add3(...numbers) {
 }
 console.log(add3(1, 2, 3, 4, 5));
 console.log(add3(...[1, 2, 3, 4, 5]));
+function add4(a, b) {
+    return a + b;
+}
+console.log(add4(1, 2));
+console.log(add4("Hello", "World"));
