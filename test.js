@@ -1,5 +1,5 @@
-let fname = 'test';
-console.log(fname);
-
-fname = 8;
-console.log(fname);
+"use strict";
+let user;
+user = 'John';
+user.toUpperCase();
+console.log(user);

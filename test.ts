@@ -1,5 +1,5 @@
-let fname = 'test';
-console.log(fname);
+let user : string;
+user = 'John';
+user.toUpperCase();
 
-fname = 8; // Error! Type '8' is not assignable to type 'string'.
-console.log(fname);
+console.log(user);
