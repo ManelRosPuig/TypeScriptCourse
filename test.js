@@ -34,3 +34,9 @@ console.log(people[0].name);
 console.log(people[0].age);
 console.log(people[0].isMarried);
 console.log(people[0].hobbies);
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));

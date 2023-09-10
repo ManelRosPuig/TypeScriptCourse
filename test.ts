@@ -51,3 +51,9 @@ console.log(people[0].name);
 console.log(people[0].age);
 console.log(people[0].isMarried);
 console.log(people[0].hobbies);
+
+enum Color {
+    Red,
+    Green,
+    Blue
+}
