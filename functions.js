@@ -28,3 +28,11 @@ function add4(a, b) {
 }
 console.log(add4(1, 2));
 console.log(add4("Hello", "World"));
+// Generic function
+function getItemsSorted(items) {
+    return items.sort();
+}
+let numArr = getItemsSorted([1, 3, 3, 1, 5]);
+let strArr = getItemsSorted(["Hello", "World"]);
+console.log(numArr);
+console.log(strArr);

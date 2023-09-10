@@ -41,3 +41,14 @@ function add4(a: any, b: any): any {
 
 console.log(add4(1, 2));
 console.log(add4("Hello", "World"));
+
+// Generic function
+function getItemsSorted<Type>(items: Type[]): Type[] {
+    return items.sort();
+}
+
+let numArr = getItemsSorted<number>([1, 3, 3, 1, 5]);
+let strArr = getItemsSorted<string>(["Hello", "World"]);
+
+console.log(numArr);
+console.log(strArr);
