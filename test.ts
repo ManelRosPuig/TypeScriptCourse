@@ -57,3 +57,13 @@ enum Color {
     Green,
     Blue
 }
+
+function add(a: number, b: number) {
+    return a + b;
+}
+
+function print(value: any) {
+    console.log(value);
+}
+
+print(add(1, 2));

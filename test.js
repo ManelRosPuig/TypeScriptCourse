@@ -40,3 +40,10 @@ var Color;
     Color[Color["Green"] = 1] = "Green";
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
+function add(a, b) {
+    return a + b;
+}
+function print(value) {
+    console.log(value);
+}
+print(add(1, 2));
